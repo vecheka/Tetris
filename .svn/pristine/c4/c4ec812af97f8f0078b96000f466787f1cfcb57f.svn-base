@@ -1,0 +1,73 @@
+Tetris 
+TCSS 305: Programming Practicum, Winter 2018
+
+Name: Vecheka Chhourn
+UWNetID: vechec
+Subversion Revision Number:
+
+31                                 
+
+
+
+Assignment Overview:
+
+
+The purpose of this whole assignment is similar to the past assignments that we have done so far in this class. It is to test our knowledge and understanding of writing the front end codes. And to also test our knowledge in understanding the back end codes that were provided to us. Other purpose is to test our concepts on working with different classes, and the idea of loosen coupling coding. Also, it is for us to have more practices with using action listeners, and other type of listeners that Java has to offer. In addition, this Tetris assignment is a chance for us to showcase our creativity, and a chance for us to showcase our coding skills, and take it a step farther doing the things that are not required. However, most important of all is for us to understand the concepts of observer pattern design which will be very useful for us as we continue to code going forward. 
+
+Technical Impression:
+
+
+I started off this assignment by diving into your back end codes, and try to understand what was happening there. Not surprisingly, I did not know what was going right away, and at that point I was completely lost and I did not know where to start. It took me a good few hours sitting in front of my computer, and staring at the codes to get some ideas of what was written in the back end. I started tracking all the objects that it was notifying the front ends, and from there I created a simple class to print out all those messages that were sent from the back end to the front end. There was some light in my tunnel at this particular point, and I started to have more and more ideas of where to start, and how to start the project.
+The next thing I did in this assignment was drawing the board on frame, and trying to draw the pieces on to the board. I implemented the timer, but there was a problem with piece. It went off my board but I was able to fix this part quickly. My next struggle was to draw the next piece on the board, this was a little tricky, and there were a lot of math involved figuring the center, and just the points on the board overall. This section took me a while to finish, and I had a lot of complexity problems as the codes were redundancy, and there were a lot use of switch and cases in one method. 
+The next problem I had was dealing with key events in the game, at first I was using a lot if/else statements which again caused me complexity problems, but then I switched to using switch/cases, and complexity was gone. However, I thought there had to be a better of doing it. I thought about storing a reference that would point to the methods that needed to done when keys are pressed. I went online to search for as way in doing so, but I wasn’t able to find the right a good answer. Until in class where you showed us the Runnable which was a big help, and it is something that I will be using more going forward. 
+At this point, I was done with the requirements of the project, and I took a chance again diving into your back end and try implementing a load game which enables the users to save a game and load it again later on. As I had a lot already with the codes, this time I understood your codes much better, and was able to implement a load game method which I was very thrilled with myself. 
+In the end, this assignment has taught me a lot about coding, and I have certainly learned a lot tricks, and concepts doing this. My understanding with observer pattern has increased significantly too. Overall, this assignment is amazing although I wish we had time to implement the back end codes on our own. 
+
+
+
+Changes to the starter code:
+(List EVERY change or addition you made to the provided starter code. Be specific and detailed - provide class names and line numbers to help me quickly find your changes. For each change explain the reason for the change or addition.
+Just say 'none' if you made no changes to the starter code.)
+
+
+
+Board Class --> Line #136 loadGame(); I made this change to allow the users the ability to save game, and load their game again with their previous scores, pieces, and all other stats
+being saved for them.
+
+
+Extra Feature:
+
+
+1. Customize Keys : ability to add new key moves into the game.
+2. Select Difficulty: three difficulties in the game, specifically Beginner, Intermediate, Advance. Can be found in Controls Menu.
+3. Background music: play, pause, stop, and loop music.
+4. Load/Save Game: Save game, and load the saved game. Specific file name to save game is "savedGame.txt"
+5. Save High Score: When a player gets a new high score, game's high score is set to that. Specific file name to save game's 
+high score is "highscore.txt" 
+6. Reset High Score: Players can reset the high score to 0 again.
+
+
+Extra Credit:
+(List the extra credit in your submission.
+
+
+
+
+
+Location of difficulty level requirement: 
+(Only needed if done as extra credit)
+
+
+Location of scoring algorithm: 
+(Only needed if done as extra credit)
+
+
+
+
+Unresolved problems in my submission:
+None.
+
+
+Questions:
+None.
+
